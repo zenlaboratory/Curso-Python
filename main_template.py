@@ -1,7 +1,7 @@
-from untitled import *
+import untitled
 
 
-class VentanaPrincipal(QtWidgets.QMainWindow, Ui_MainWindow):
+class VentanaPrincipal(QtWidgets.QMainWindow, untitled.Ui_MainWindow):
     def __init__(self, *args, **kwargs):
         QtWidgets.QMainWindow.__init__(self, *args, **kwargs)
         self.setupUi(self)
