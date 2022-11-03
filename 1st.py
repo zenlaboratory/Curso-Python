@@ -7,7 +7,7 @@ comentario mutilinea """
 
 num_a = 4 # int
 num_b = 32.5 # float. Con parte decimal separada por punto.
-nombre = "Carlos" # str
+nombre = "carlos" # str
 joven = True # bool
 numero_complejo = 4+2j # complex
 
@@ -29,6 +29,10 @@ print(len(nombre))
 # Obtenemos el valor de la posicion (index) del str[0..n]
 
 print(nombre[2])
+print(nombre.capitalize())
+print(nombre.upper())
+print(nombre)
+print(nombre.islower())
 
 
     
